@@ -102,6 +102,7 @@ const orders = [{"price":15,"tax":0.09},{"price":42,"tax":0.07},{"price":56,"tax
 */
 
 // CODE HERE
+const totalPrice = orders.map((element) => element.price*(1+element.tax))
 
 
 

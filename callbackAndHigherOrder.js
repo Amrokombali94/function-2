@@ -50,6 +50,8 @@ const first = (arr,callback) =>{
 // RUN THIS FILE WITH NODE
 // CHECK YOUR ANSWER
 
+
+
 first(names, firstName => {
   console.log('The first name in names is ' + firstName)
 })
@@ -283,3 +285,7 @@ const addTen = addingFactory(10)
 */
 
 // CODE HERE
+
+const addFive = addingFactory(5)
+
+console.log(addFive(7))
